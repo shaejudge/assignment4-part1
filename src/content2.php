@@ -15,7 +15,7 @@
 		$username = $_POST["username"];
 		
 		if($username == null)
-		{	header("Location: /content1.php", true);
+		{	header("Location: http://web.engr.oregonstate.edu/~judges/content1.php", true);
 		}
 			
 			$_SESSION['visits']++;
@@ -28,7 +28,7 @@
 	<title>Content 2</title>
 	<body>
 	
-	<form action="login.php" method="post"><br>
+	<form action="http://web.engr.oregonstate.edu/~judges/login.php" method="post"><br>
 		<input type="submit" name="killSession" value="Kill Session">
 		<br>
 		</form>
@@ -39,7 +39,7 @@
 		}
 		
 		}else{
-		header("Location: /login.php", true);
+		header("Location: http://web.engr.oregonstate.edu/~judges/login.php", true);
 		}
 		
 ?>

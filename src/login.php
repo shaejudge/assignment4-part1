@@ -12,7 +12,7 @@
 	<head>
 	<title>Login!</title>
 	<body>
-	<form action="content2.php" method="POST">
+	<form action="http://web.engr.oregonstate.edu/~judges/content2.php" method="POST">
 	
 	<input type= "hidden" name="visitSession" value="<?php echo $_SESSION['firstVisit']; ?>";>
 	
